@@ -80,3 +80,6 @@ D:\Image Labeling\Image Labeling\obj\Debug\Image_Labeling.Properties.Resources.r
 D:\Image Labeling\Image Labeling\obj\Debug\Image Labeling.csproj.GenerateResource.Cache
 D:\Image Labeling\Image Labeling\obj\Debug\Image Labeling.exe
 D:\Image Labeling\Image Labeling\obj\Debug\Image Labeling.pdb
+D:\Image-Labeling\Image Labeling\bin\Debug\Image Labeling.exe.config
+D:\Image-Labeling\Image Labeling\obj\Debug\Image Labeling.exe
+D:\Image-Labeling\Image Labeling\obj\Debug\Image Labeling.pdb

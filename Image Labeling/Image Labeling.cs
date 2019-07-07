@@ -62,7 +62,8 @@ namespace Image_Labeling
 
             SetParentChildRelationship();
 
-            pboxImage.MouseWheel += pboxImage_MouseWheel;
+//            pboxImage.MouseWheel += pboxImage_MouseWheel;
+            pboxBackground.MouseWheel += pboxImage_MouseWheel;
             UpdateVariousRectangles();
         }
 
