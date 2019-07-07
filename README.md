@@ -10,4 +10,10 @@
 6. *(B)* If you have Visual Studio 2015 Community Edition installed and want to compile/run, double click on the solution file 'Image Labeling.sln' and press F5 to run.
 7. Simple mouse/keyboard shortcut keys are included (Shortcut keys.png).
 
+![Image of Image Labeling](https://github.com/astri-ics/Image-Labeling/blob/master/Shortcutkeys.png)
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png "Test tooltip")
+
+[<img src="http://www.recomax.com/images/Shortcutkeys.png">](http://www.recomax.com/images/Shortcutkeys.png "Test tooltip")
+
+![Testing Testing](http://www.recomax.com/images/Shortcutkeys.png "Test2 tooltip")
