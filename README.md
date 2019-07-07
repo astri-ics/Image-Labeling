@@ -10,9 +10,10 @@
 6. *(B)* If you have Visual Studio 2015 Community Edition installed and want to compile/run, double click on the solution file 'Image Labeling.sln' and press F5 to run.
 7. Simple mouse/keyboard shortcut keys are included (Shortcut keys.png).
 
+
+
 ![Sample output screen](https://github.com/astri-ics/Image-Labeling/blob/master/Sampleoutputscreen05.png "Sample output screen")
 
-![Shortcut keys](https://github.com/astri-ics/Image-Labeling/blob/master/Shortcutkeys.png "Shortcut keys")
 
-![Sample output screen](https://github.com/astri-ics/Image-Labeling/blob/master/Sample output screen 02.png "Sample output screen")
+![Shortcut keys](https://github.com/astri-ics/Image-Labeling/blob/master/Shortcutkeys.png "Shortcut keys")
 
