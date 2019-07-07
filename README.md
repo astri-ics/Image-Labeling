@@ -1,5 +1,5 @@
 # Image-Labeling
-##### Image Labeling software written in C# for __Windows 10__
+#### Image Labeling software written in C# for __Windows 10__
 
 ## Steps to run *Image Labeling.exe*
 1. Clone this repository to your local drive
