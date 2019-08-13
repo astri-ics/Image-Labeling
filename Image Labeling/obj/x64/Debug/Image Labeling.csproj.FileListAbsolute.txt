@@ -74,3 +74,41 @@ D:\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.Properties.Resourc
 D:\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csproj.GenerateResource.Cache
 D:\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.exe
 D:\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.pdb
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\x64\concrt140.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\x64\cvextern.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\x64\msvcp140.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\x64\opencv_ffmpeg343_64.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\x64\vcruntime140.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Image Labeling Definition.json
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Image Labeling.exe.config
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Image Labeling.exe
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Image Labeling.pdb
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Emgu.CV.UI.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Emgu.CV.World.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Newtonsoft.Json.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\ZedGraph.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Emgu.CV.UI.xml
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Emgu.CV.World.xml
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Newtonsoft.Json.pdb
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\Newtonsoft.Json.xml
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\ZedGraph.xml
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\de\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\es\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\fr\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\hu\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\it\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\ja\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\pt\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\ru\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\sk\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\sv\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\tr\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.About_Box.resources
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.ImageLabeling.resources
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.Properties.Resources.resources
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.Shortcut_keys.resources
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csproj.GenerateResource.Cache
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.exe
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.pdb

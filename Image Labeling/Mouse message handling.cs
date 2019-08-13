@@ -1200,7 +1200,7 @@ namespace Image_Labeling
             lblCoordinates.Text = strCoordinates;
         }
 
-        private bool bHandleArrowKeys = true;
+//        private bool bHandleArrowKeys = true;
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)        // For ImageLabeling form
         {
             int kbImageStep = (int)(KBIMAGESTEP / displayScale);
@@ -1210,6 +1210,13 @@ namespace Image_Labeling
             //            if (cboxProcessedFolders.ContainsFocus == true)
             //              return base.ProcessCmdKey(ref msg, keyData);
 
+            if (keyData == Keys.F1)
+            {
+                Shortcut_keys shortcutKeys = new Shortcut_keys();
+                shortcutKeys.ShowDialog();
+                return base.ProcessCmdKey(ref msg, keyData);
+            }
+            
             if (srcBitmap == null)
                 return base.ProcessCmdKey(ref msg, keyData);
 

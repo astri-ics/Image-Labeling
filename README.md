@@ -11,9 +11,13 @@
 7. Simple mouse/keyboard shortcut keys are included (Shortcut keys.png).
 
 
-
 ![Sample output screen](https://github.com/astri-ics/Image-Labeling/blob/master/Sampleoutputscreen05.png "Sample output screen")
 
 
 ![Shortcut keys](https://github.com/astri-ics/Image-Labeling/blob/master/Shortcutkeys.png "Shortcut keys")
 
+##Changes in Version 1.1
+1. Initial window size set to 1200x800
+2. Add Help->Shortcut Keys
+3. Add F1 hotkey to bring up Shortcut keys dialog
+4. New defect definition (refer to Image Labeling Definition.json)

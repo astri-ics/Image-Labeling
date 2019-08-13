@@ -23,7 +23,7 @@ namespace Image_Labeling
     {
         private int brightness = 5;
         private double contrast = 5;
-        private int topIndex = 0;                   // Top index value of listbox
+        private int topIndex = 0;                   // Top index value of listbox 
         private bool bImageLabelsModified = false;
         private bool bCursorIsInside = false;
         private List<string> extensionList = new List<string>{ ".bmp", ".jpg", ".jpeg", ".png" };
@@ -47,6 +47,8 @@ namespace Image_Labeling
 
         private void ImageLabeling_Load(object sender, EventArgs e)
         {
+            this.Width = 1200;
+            this.Height = 800;
             imageLabelsAllFiles.lastAccessedFile = "";
             imageLabelsAllFiles.allLabels = new ImageLabelsPerFile[0];
             if (!ReadEditingRecordFile())
@@ -281,6 +283,9 @@ namespace Image_Labeling
             if (folderName == null)
                 return false;
 
+            if (String.IsNullOrEmpty(folderName))
+                return false;
+
             if (Directory.Exists(folderName))
             {
                 try
@@ -451,9 +456,16 @@ namespace Image_Labeling
             {
                 if (extensionList.Contains(strExtension))
                 {
-                    srcBitmap = new Bitmap(fullFilename);
-                    processedBitmap = (Bitmap)srcBitmap.Clone();
-                    ReadOneImageLabel(currentFile);             // Note that currentFile is just updated, imageLabelsPerFileList --> imageLabelsList
+                    try
+                    {
+                        srcBitmap = new Bitmap(fullFilename);
+                        processedBitmap = (Bitmap)srcBitmap.Clone();
+                        ReadOneImageLabel(currentFile);             // Note that currentFile is just updated, imageLabelsPerFileList --> imageLabelsList
+                    }
+                    catch (Exception expt)
+                    {
+                        MessageBox.Show(expt.Message, "File Format Error");
+                    }
                 }
             }
 
@@ -585,8 +597,11 @@ namespace Image_Labeling
 
         private void cboxProcessedFolders_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string newFolder = cboxProcessedFolders.Text;
-            ChangeToThisFolder(newFolder);
+            if (String.IsNullOrEmpty(cboxProcessedFolders.Text))
+            {
+                string newFolder = cboxProcessedFolders.Text;
+                ChangeToThisFolder(newFolder);
+            }
         }
 
         private void ImageLabeling_FormClosing(object sender, FormClosingEventArgs e)
@@ -645,6 +660,12 @@ namespace Image_Labeling
             pboxImage.Invalidate(rect);             // Invalidate the lower right corner
             rect.X = 0;
             pboxImage.Invalidate(rect);             // Invalidate the lower left corner
+        }
+
+        private void shortcutKeystoolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Shortcut_keys shortcutKeys = new Shortcut_keys();
+            shortcutKeys.ShowDialog();
         }
     }
 }

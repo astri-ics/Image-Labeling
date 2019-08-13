@@ -69,7 +69,7 @@
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(81, 19);
             this.lblVersion.TabIndex = 3;
-            this.lblVersion.Text = "Version 1.0";
+            this.lblVersion.Text = "Version 1.1";
             // 
             // lblCopyright
             // 
@@ -123,7 +123,7 @@
             this.Name = "About_Box";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About_Box";
+            this.Text = "About Image Labeling";
             ((System.ComponentModel.ISupportInitialize)(this.pboxAstriLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

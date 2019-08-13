@@ -83,6 +83,16 @@ namespace Image_Labeling.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Shortcut_keys {
+            get {
+                object obj = ResourceManager.GetObject("Shortcut_keys", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Transparent_background {
             get {
                 object obj = ResourceManager.GetObject("Transparent_background", resourceCulture);

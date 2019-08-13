@@ -55,6 +55,7 @@
             this.lblStars2 = new System.Windows.Forms.Label();
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.lblTotalProcessed = new System.Windows.Forms.Label();
+            this.shortcutKeystoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pboxImage = new System.Windows.Forms.PictureBox();
             this.pboxBackground = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.tbarBrightness)).BeginInit();
@@ -133,7 +134,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(884, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(885, 29);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -164,6 +165,7 @@
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.shortcutKeystoolStripMenuItem1,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
@@ -173,7 +175,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -320,12 +322,19 @@
             this.lblTotalProcessed.Text = "Total: <>, Processed: <>";
             this.lblTotalProcessed.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // shortcutKeystoolStripMenuItem1
+            // 
+            this.shortcutKeystoolStripMenuItem1.Name = "shortcutKeystoolStripMenuItem1";
+            this.shortcutKeystoolStripMenuItem1.Size = new System.Drawing.Size(174, 26);
+            this.shortcutKeystoolStripMenuItem1.Text = "Shortcut keys";
+            this.shortcutKeystoolStripMenuItem1.Click += new System.EventHandler(this.shortcutKeystoolStripMenuItem1_Click);
+            // 
             // pboxImage
             // 
             this.pboxImage.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pboxImage.BackgroundImage = global::Image_Labeling.Properties.Resources.Transparent_background;
             this.pboxImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pboxImage.Location = new System.Drawing.Point(49, 92);
+            this.pboxImage.Location = new System.Drawing.Point(49, 101);
             this.pboxImage.Name = "pboxImage";
             this.pboxImage.Size = new System.Drawing.Size(408, 363);
             this.pboxImage.TabIndex = 0;
@@ -351,7 +360,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(884, 566);
+            this.ClientSize = new System.Drawing.Size(885, 585);
             this.Controls.Add(this.lblTotalProcessed);
             this.Controls.Add(this.lblStars2);
             this.Controls.Add(this.lblStars3);
@@ -420,6 +429,7 @@
         private System.Windows.Forms.Label lblStars2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Label lblTotalProcessed;
+        private System.Windows.Forms.ToolStripMenuItem shortcutKeystoolStripMenuItem1;
     }
 }
 
