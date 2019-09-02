@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Shortcut_keys));
             this.pboxShortcut = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboxShortcut)).BeginInit();
             this.SuspendLayout();
@@ -36,10 +35,10 @@
             // pboxShortcut
             // 
             this.pboxShortcut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pboxShortcut.Image = ((System.Drawing.Image)(resources.GetObject("pboxShortcut.Image")));
+            this.pboxShortcut.Image = global::Image_Labeling.Properties.Resources.Shortcut_keys;
             this.pboxShortcut.Location = new System.Drawing.Point(26, 16);
             this.pboxShortcut.Name = "pboxShortcut";
-            this.pboxShortcut.Size = new System.Drawing.Size(503, 609);
+            this.pboxShortcut.Size = new System.Drawing.Size(503, 749);
             this.pboxShortcut.TabIndex = 0;
             this.pboxShortcut.TabStop = false;
             // 
@@ -47,7 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(553, 639);
+            this.ClientSize = new System.Drawing.Size(553, 777);
             this.Controls.Add(this.pboxShortcut);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Shortcut_keys";

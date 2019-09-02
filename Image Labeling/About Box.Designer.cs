@@ -56,9 +56,9 @@
             this.lblImageLabeling.Location = new System.Drawing.Point(183, 32);
             this.lblImageLabeling.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblImageLabeling.Name = "lblImageLabeling";
-            this.lblImageLabeling.Size = new System.Drawing.Size(108, 19);
+            this.lblImageLabeling.Size = new System.Drawing.Size(111, 19);
             this.lblImageLabeling.TabIndex = 2;
-            this.lblImageLabeling.Text = "Image Labeling";
+            this.lblImageLabeling.Text = "Defect Labeling";
             // 
             // lblVersion
             // 
@@ -69,7 +69,7 @@
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(81, 19);
             this.lblVersion.TabIndex = 3;
-            this.lblVersion.Text = "Version 1.1";
+            this.lblVersion.Text = "Version 1.2";
             // 
             // lblCopyright
             // 
@@ -123,7 +123,7 @@
             this.Name = "About_Box";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About Image Labeling";
+            this.Text = "About Defect Labeling";
             ((System.ComponentModel.ISupportInitialize)(this.pboxAstriLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

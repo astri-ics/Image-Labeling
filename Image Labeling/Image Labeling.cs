@@ -26,6 +26,10 @@ namespace Image_Labeling
         private int topIndex = 0;                   // Top index value of listbox 
         private bool bImageLabelsModified = false;
         private bool bCursorIsInside = false;
+        private bool bDisplayDefectText = true;     // Default is always display defect text with semi-transparent white rectangle at the back
+        private Color normalColor = Color.Red;
+        private Color undefinedColor = Color.Red;
+        private Color othersColor = Color.Red;
         private List<string> extensionList = new List<string>{ ".bmp", ".jpg", ".jpeg", ".png" };
         private string editingRecordFilename = "Image Labeling Editing Record.JSON";
         private string defectDefinitionFilename = "Image Labeling Definition.JSON";
@@ -238,6 +242,25 @@ namespace Image_Labeling
 
         private bool ReadDefectDefinitionFile()
         {
+            Dictionary<string, Color> colorTable = new Dictionary<string, Color>();
+            colorTable.Add("black", Color.Black);
+            colorTable.Add("white", Color.White);
+            colorTable.Add("gray", Color.Gray);
+            colorTable.Add("red", Color.Red);
+            colorTable.Add("green", Color.Green);
+            colorTable.Add("blue", Color.Blue);
+            colorTable.Add("orange", Color.Orange);
+            colorTable.Add("purple", Color.Purple);
+            colorTable.Add("pink", Color.Pink);
+            colorTable.Add("yellow", Color.Yellow);
+            colorTable.Add("lightgray", Color.LightGray);
+            colorTable.Add("lightgreen", Color.LightGreen);
+            colorTable.Add("lightblue", Color.LightBlue);
+            colorTable.Add("darkgray", Color.DarkGray);
+            colorTable.Add("darkred", Color.DarkRed);
+            colorTable.Add("darkgreen", Color.DarkGreen);
+            colorTable.Add("darkblue", Color.DarkBlue);
+
             try
             {
                 string textJSON = "";
@@ -256,6 +279,21 @@ namespace Image_Labeling
                 defectDefinition = jsonLocal.defectDefinition;
                 if (defectDefinition.Length == 0)
                     MessageBox.Show("No defect definition is found", "Definition Error");       // Alert error message only, no need to quit
+                if (!String.IsNullOrEmpty(jsonLocal.NormalColor))
+                {
+                    if (colorTable.ContainsKey(jsonLocal.NormalColor.ToLower()))
+                        normalColor = colorTable[jsonLocal.NormalColor.ToLower()];                // Override the normalColor
+                }
+                if (!String.IsNullOrEmpty(jsonLocal.UndefinedColor))
+                {
+                    if (colorTable.ContainsKey(jsonLocal.UndefinedColor.ToLower()))
+                        undefinedColor = colorTable[jsonLocal.UndefinedColor.ToLower()];          // Override the undefinedColor
+                }
+                if (!String.IsNullOrEmpty(jsonLocal.OthersColor))
+                {
+                    if (colorTable.ContainsKey(jsonLocal.OthersColor.ToLower()))
+                        othersColor = colorTable[jsonLocal.OthersColor.ToLower()];                // Override the othersColor
+                }
             }
             catch (Exception expt)
             {

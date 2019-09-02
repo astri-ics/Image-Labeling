@@ -40,6 +40,7 @@
             this.chooseFolderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shortcutKeystoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblCurrentFolderText = new System.Windows.Forms.Label();
@@ -55,7 +56,6 @@
             this.lblStars2 = new System.Windows.Forms.Label();
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.lblTotalProcessed = new System.Windows.Forms.Label();
-            this.shortcutKeystoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pboxImage = new System.Windows.Forms.PictureBox();
             this.pboxBackground = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.tbarBrightness)).BeginInit();
@@ -171,6 +171,13 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(54, 25);
             this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // shortcutKeystoolStripMenuItem1
+            // 
+            this.shortcutKeystoolStripMenuItem1.Name = "shortcutKeystoolStripMenuItem1";
+            this.shortcutKeystoolStripMenuItem1.Size = new System.Drawing.Size(174, 26);
+            this.shortcutKeystoolStripMenuItem1.Text = "Shortcut keys";
+            this.shortcutKeystoolStripMenuItem1.Click += new System.EventHandler(this.shortcutKeystoolStripMenuItem1_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -322,13 +329,6 @@
             this.lblTotalProcessed.Text = "Total: <>, Processed: <>";
             this.lblTotalProcessed.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // shortcutKeystoolStripMenuItem1
-            // 
-            this.shortcutKeystoolStripMenuItem1.Name = "shortcutKeystoolStripMenuItem1";
-            this.shortcutKeystoolStripMenuItem1.Size = new System.Drawing.Size(174, 26);
-            this.shortcutKeystoolStripMenuItem1.Text = "Shortcut keys";
-            this.shortcutKeystoolStripMenuItem1.Click += new System.EventHandler(this.shortcutKeystoolStripMenuItem1_Click);
-            // 
             // pboxImage
             // 
             this.pboxImage.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -384,7 +384,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MinimumSize = new System.Drawing.Size(900, 455);
             this.Name = "ImageLabeling";
-            this.Text = "Image Labeling";
+            this.Text = "Defect Labeling";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ImageLabeling_FormClosing);
             this.Load += new System.EventHandler(this.ImageLabeling_Load);
             this.SizeChanged += new System.EventHandler(this.ImageLabeling_SizeChanged);

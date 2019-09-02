@@ -112,4 +112,3 @@ D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Label
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csproj.GenerateResource.Cache
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.exe
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.pdb
-D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csprojResolveAssemblyReference.cache

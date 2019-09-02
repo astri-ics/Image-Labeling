@@ -21,3 +21,12 @@
 2. Add Help->Shortcut Keys
 3. Add F1 hotkey to bring up Shortcut keys dialog
 4. New defect definition (refer to Image Labeling Definition.json)
+
+## Changes in Version 1.2
+1. Add "未分類的瑕疵"
+2. Add NormalColor, UndefinedColor, and OthersColor
+3. Add hotkey F2 to hide defect definition text display
+4. Modify Shortcut keys description
+5. Change version number from V1.1 to V1.2 in About dialog box
+6. Use Dictionary to implement 'acceptable color'
+7. Change app name from 'Image Labeling' to 'Defect Labeling'

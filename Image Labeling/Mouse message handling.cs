@@ -1062,17 +1062,23 @@ namespace Image_Labeling
                     return;
                 }
 
+                Color frameColor = Color.Red;                     // Default color
                 scaledLeft = (int)(left * displayScale) + imageViewableRect.Left;
                 scaledTop = (int)(top * displayScale) + imageViewableRect.Top;
                 scaledWidth = (int)(width * displayScale);
                 scaledHeight = (int)(height * displayScale);
-                g.DrawRectangle(Pens.Red, scaledLeft, scaledTop, scaledWidth, scaledHeight);
                 if (imageLabel.labelDescription != null)
                 {
-                    sizeF = g.MeasureString(imageLabel.labelDescription, font);
-                    g.FillRectangle(alphaBrush, new Rectangle(scaledLeft, scaledTop-(int)sizeF.Height, (int)sizeF.Width, (int)sizeF.Height));
-                    g.DrawString(imageLabel.labelDescription, font, Brushes.Red, scaledLeft, scaledTop - (int)sizeF.Height + 1);
+                    frameColor = GetFrameColor(imageLabel.labelDescription);         // GetColor() will return one of normalColor, undefinedColor, or othersColor
+                    if (bDisplayDefectText == true)
+                    {
+                        sizeF = g.MeasureString(imageLabel.labelDescription, font);
+                        g.FillRectangle(alphaBrush, new Rectangle(scaledLeft, scaledTop - (int)sizeF.Height, (int)sizeF.Width, (int)sizeF.Height));
+                        g.DrawString(imageLabel.labelDescription, font, Brushes.Red, scaledLeft, scaledTop - (int)sizeF.Height + 1);
+                    }
                 }
+                Pen pen = new Pen(frameColor);
+                g.DrawRectangle(pen, scaledLeft, scaledTop, scaledWidth, scaledHeight);
             }
 
             // 3. Draw the rectangle being defined, not yet in the defineFormFieldsList
@@ -1130,6 +1136,18 @@ namespace Image_Labeling
                 g.FillRectangle(Brushes.Red, pboxImage.ClientRectangle.Width - width, pboxImage.ClientRectangle.Height - height, width, height);
                 g.FillRectangle(Brushes.Red, 0, pboxImage.ClientRectangle.Height - height, width, height);
             }
+        }
+
+        private Color GetFrameColor(string desc)
+        {
+            //            Color frameColor = normalColor;
+
+            if (desc.Contains("[其他]"))
+                return othersColor;
+            else if (desc.Contains("未分類的瑕疵"))
+                return undefinedColor;
+            else
+                return normalColor;
         }
 
         // Draw the four corners specified by pt1 (upper left corner) and pt2 (lower right corner)
@@ -1214,6 +1232,13 @@ namespace Image_Labeling
             {
                 Shortcut_keys shortcutKeys = new Shortcut_keys();
                 shortcutKeys.ShowDialog();
+                return base.ProcessCmdKey(ref msg, keyData);
+            }
+
+            if (keyData == Keys.F2)
+            {
+                bDisplayDefectText = !bDisplayDefectText;
+                pboxImage.Invalidate();
                 return base.ProcessCmdKey(ref msg, keyData);
             }
             

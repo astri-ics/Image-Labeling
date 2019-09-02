@@ -19,6 +19,10 @@ namespace Image_Labeling
     public class DefectDefinitionObject
     {
         public DefectDefinition[] defectDefinition { get; set; }
+        public string NormalColor { get; set; }
+        public string UndefinedColor { get; set; }
+        public string OthersColor { get; set; }
+        public string ColorDescription { get; set; }
     }
 
     public class DefectDefinition
