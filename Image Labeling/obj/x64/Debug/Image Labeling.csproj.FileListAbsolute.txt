@@ -105,10 +105,13 @@ D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\sv\ZedGraph
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\tr\ZedGraph.resources.dll
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csprojAssemblyReference.cache
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.About_Box.resources
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.ImageLabeling.resources
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.Properties.Resources.resources
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image_Labeling.Shortcut_keys.resources
-D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csproj.GenerateResource.Cache
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csproj.GenerateResource.cache
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csproj.CoreCompileInputs.cache
+D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.csproj.CopyComplete
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.exe
 D:\ICS Projects (GitHub)\Image-Labeling\Image Labeling\obj\x64\Debug\Image Labeling.pdb

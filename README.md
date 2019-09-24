@@ -30,3 +30,6 @@
 5. Change version number from V1.1 to V1.2 in About dialog box
 6. Use Dictionary to implement 'acceptable color'
 7. Change app name from 'Image Labeling' to 'Defect Labeling'
+
+## Changes in Version 1.3
+1. Solve the bug found in cboxProcessedFolders_SelectedIndexChanged()

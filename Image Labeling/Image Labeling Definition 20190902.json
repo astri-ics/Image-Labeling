@@ -1,0 +1,36 @@
+﻿{
+  "DefectDefinition": [
+    {
+      "Category": "廚櫃",
+      "Items": [ "不對稱", "被劃花", "未分類的瑕疵" ]
+    },
+    {
+      "Category": "門",
+      "Items": [ "崩裂", "未分類的瑕疵" ]
+    },
+    {
+      "Category": "地腳線與地板",
+      "Items": [ "未補色", "未分類的瑕疵" ]
+    },
+    {
+      "Category": "假天花",
+      "Items": [ "有污漬", "未分類的瑕疵" ]
+    },
+    {
+      "Category": "牆身",
+      "Items": [ "裂痕", "批盪及油漆不平滑", "未分類的瑕疵" ]
+    },
+    {
+      "Category": "瓷磚",
+      "Items": [ "掃口未飽滿填封", "崩裂", "未分類的瑕疵" ]
+    },
+    {
+      "Category": "其他",
+      "Items": [ "標籤", "雜物" ]
+    }
+  ],
+  "NormalColor": "Red",
+  "UndefinedColor": "green",
+  "OthersColor": "Blue",
+  "ColorDescription": "Acceptable color: Black, White, Gray, Blue, Green, Red, Orange, Purple, Pink, Yellow, LightGray, LightBlue, LightGreen, DarkGray, DarkBlue, DarkGreen, and DarkRed"
+}

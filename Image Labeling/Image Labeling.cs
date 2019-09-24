@@ -635,7 +635,7 @@ namespace Image_Labeling
 
         private void cboxProcessedFolders_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(cboxProcessedFolders.Text))
+            if (!String.IsNullOrEmpty(cboxProcessedFolders.Text))
             {
                 string newFolder = cboxProcessedFolders.Text;
                 ChangeToThisFolder(newFolder);

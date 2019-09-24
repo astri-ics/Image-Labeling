@@ -69,7 +69,7 @@
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(81, 19);
             this.lblVersion.TabIndex = 3;
-            this.lblVersion.Text = "Version 1.2";
+            this.lblVersion.Text = "Version 1.3";
             // 
             // lblCopyright
             // 

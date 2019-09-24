@@ -1062,7 +1062,7 @@ namespace Image_Labeling
                     return;
                 }
 
-                Color frameColor = Color.Red;                     // Default color
+                Color frameColor = normalColor;                     // Default color
                 scaledLeft = (int)(left * displayScale) + imageViewableRect.Left;
                 scaledTop = (int)(top * displayScale) + imageViewableRect.Top;
                 scaledWidth = (int)(width * displayScale);
@@ -1140,8 +1140,6 @@ namespace Image_Labeling
 
         private Color GetFrameColor(string desc)
         {
-            //            Color frameColor = normalColor;
-
             if (desc.Contains("[其他]"))
                 return othersColor;
             else if (desc.Contains("未分類的瑕疵"))
